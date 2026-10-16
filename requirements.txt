@@ -1,0 +1,9 @@
+curl_cffi>=0.7.0
+PyYAML>=6.0
+# Распознавание текста на фото объявления (баннеры «REZERWACJA»).
+# Использует Vision, встроенный в macOS. Необязательная зависимость:
+# без неё шаг молча выключается, остальное работает.
+pyobjc-framework-Vision>=10.0; sys_platform == 'darwin'
+
+# Приложение в строке меню (CarFinder.app). Для CLI не требуется.
+rumps>=0.4.0; sys_platform == 'darwin'

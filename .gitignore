@@ -1,0 +1,12 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+*.log
+.pytest_cache/
+CarFinder.app/
+.DS_Store
+# личные критерии поиска; в репозитории — config.example.yaml
+config.yaml
+# соседний проект со своим репозиторием
+phone-finder/
